@@ -23,7 +23,7 @@ jobs:
           echo "🚀 Iniciando despliegue en EC2...."
 
           # Actualizar paquetes
-          echo "🔧 Instalando dependencias necesarias...."
+          echo "🔧 Instalando dependencias necesarias....."
           sudo yum update -y
 
           # Instalar git si no está instalado
