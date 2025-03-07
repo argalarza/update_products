@@ -20,7 +20,7 @@ jobs:
         username: ${{ secrets.EC2_USERNAME }}
         key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
         script: |
-          echo "🚀 Iniciando despliegue en EC2..."
+          echo "🚀 Iniciando despliegue en EC2...."
 
           # Actualizar paquetes
           echo "🔧 Instalando dependencias necesarias...."
